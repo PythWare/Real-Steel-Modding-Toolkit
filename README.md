@@ -1,11 +1,11 @@
 # Info
-Real Steel is a high end modding toolkit for Dynasty Warriors 2, meant to replace my Dynasty Warriors 2 2.0 modding toolkit. It's not ready to release but i'll explain the future features. Real Steel is inspired by Tetsutetsu from My hero Academia.
+Real Steel is a high end modding toolkit for Dynasty Warriors 2, meant to replace my Dynasty Warriors 2 tools I made in the past (the 2.0 versions). It's not ready to release but i'll explain the future features. Real Steel is inspired by Tetsutetsu from My hero Academia.
 
 <img width="1280" height="1007" alt="ts10" src="https://github.com/user-attachments/assets/3e68e32b-cc0e-44fa-810c-05c9d5e6c367" />
 
 # Steel Guider (meant to replace Visual Guider as the main Stage Editor to use)
 
-The Steel Guider is Visual Guider overhauled with a new GUI. Panels can be moved around, you can hide the UI, etc. Like with Visual Guider it mods the battlefield data that determines who and where fights for side 1 and 2. Each stage has its map loaded, populated with all squads/forces on the map automatically, allows editing squad data (coordinates where squads spawn, leader id, guard id, parameters, etc), zooming in/out to adjust the display of the map, clicking a squad or their name in the list (which takes you directly to the squad so you don't have to manually find them) displays their squad data, morale bar toggle, guard toggle, etc. The Steel Guider does everything the Visual Guider can but has a way better design and still includes all the features visual guider had even the genetic algorithm.
+The Steel Guider is Visual Guider overhauled with a new GUI. Panels can be moved around, you can hide the UI, etc. Like with Visual Guider it mods the battlefield data that determines who and where fights for side 1 and 2. Each stage has its map loaded, populated with all squads/forces on the map automatically, allows editing squad data (coordinates where squads spawn, leader id, guard id, parameters, etc), zooming in/out to adjust the display of the map, clicking a squad or their name in the list (which takes you directly to the squad so you don't have to manually find them) displays their squad data, morale bar toggle, guard toggle, etc. The Steel Guider does everything the Visual Guider can but has a way better design and still includes all the features visual guider had even the genetic algorithm. For a full description of what Steel Guider can do checkout Visual Guider which is what Steel Guider is based on https://github.com/PythWare/Dynasty-Warriors-2-Visual-Guider
 
 <img width="1908" height="1029" alt="ts2" src="https://github.com/user-attachments/assets/cb6d327e-ee44-4384-bf03-b9b2e885a815" />
 <img width="1914" height="1030" alt="ts3" src="https://github.com/user-attachments/assets/a8796542-c465-4e36-acd7-2b78f4e7d486" />
@@ -48,6 +48,12 @@ You will not be able to import custom models from other games. DW2 uses a custom
 <img width="995" height="808" alt="ts9" src="https://github.com/user-attachments/assets/af1b3016-2c47-46f5-bf93-0c02e39f0873" />
 <img width="1267" height="724" alt="map2" src="https://github.com/user-attachments/assets/26df4697-404c-4495-8b21-341001cb087b" />
 <img width="1277" height="720" alt="ts8" src="https://github.com/user-attachments/assets/3754b6b2-4e95-48d1-9cc8-b178683a2e36" />
+
+# Credits
+
+Credit goes to Michael, Passion Wagon, Aurvi, and The Tempest for documentation with Stage/Morale Data. Credit also goes to Michael for documentation on model, motion/moveset, and color values. Michael gave permission for me to include his lists of documentation in Visual Guider so credit goes to him for the model, motion/moveset, and army color values/strings. Further credit also goes to Michael for discovering the data that determines if player bodyguards follow like AI guards. 
+
+I only take credit for the code and design of Real Steel.
 
 # Future Plans
 
